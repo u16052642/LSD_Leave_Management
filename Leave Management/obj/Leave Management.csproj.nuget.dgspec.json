@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\divin\\OneDrive\\Desktop\\Leave-management Project\\Leave-Management-master\\Leave-Management-master\\Leave Management\\Leave Management.csproj": {}
+    "C:\\Users\\divin\\OneDrive\\Desktop\\Leave-management Project\\Leave-Management-master\\Leave-Management-master\\LSD_Leave_Management\\Leave Management\\Leave Management.csproj": {}
   },
   "projects": {
-    "C:\\Users\\divin\\OneDrive\\Desktop\\Leave-management Project\\Leave-Management-master\\Leave-Management-master\\Leave Management\\Leave Management.csproj": {
+    "C:\\Users\\divin\\OneDrive\\Desktop\\Leave-management Project\\Leave-Management-master\\Leave-Management-master\\LSD_Leave_Management\\Leave Management\\Leave Management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\divin\\OneDrive\\Desktop\\Leave-management Project\\Leave-Management-master\\Leave-Management-master\\Leave Management\\Leave Management.csproj",
+        "projectUniqueName": "C:\\Users\\divin\\OneDrive\\Desktop\\Leave-management Project\\Leave-Management-master\\Leave-Management-master\\LSD_Leave_Management\\Leave Management\\Leave Management.csproj",
         "projectName": "Leave Management",
-        "projectPath": "C:\\Users\\divin\\OneDrive\\Desktop\\Leave-management Project\\Leave-Management-master\\Leave-Management-master\\Leave Management\\Leave Management.csproj",
+        "projectPath": "C:\\Users\\divin\\OneDrive\\Desktop\\Leave-management Project\\Leave-Management-master\\Leave-Management-master\\LSD_Leave_Management\\Leave Management\\Leave Management.csproj",
         "packagesPath": "C:\\Users\\divin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\divin\\OneDrive\\Desktop\\Leave-management Project\\Leave-Management-master\\Leave-Management-master\\Leave Management\\obj\\",
+        "outputPath": "C:\\Users\\divin\\OneDrive\\Desktop\\Leave-management Project\\Leave-Management-master\\Leave-Management-master\\LSD_Leave_Management\\Leave Management\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -49,6 +49,10 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Google.Apis.Calendar.v3": {
+              "target": "Package",
+              "version": "[1.57.0.2696, )"
             },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",

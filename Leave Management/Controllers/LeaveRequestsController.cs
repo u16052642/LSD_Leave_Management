@@ -203,7 +203,17 @@ namespace Leave_Management.Controllers
                     LeaveTypeId = collection.LeaveTypeId,
                     RequestComments = collection.RequestComments
                 };
-
+                String description = "" + collection.RequestComments;
+                var gDates = new GoogleCalendarDateConstructor(dateTime,timeZone)
+               
+                var gCalendarData = new GoogleCalendarData
+                {
+                    summary = collection.LeaveTypeId +" " + "Leave Request for" +" "+ employee.Firstname +" "+ employee.Lastname,
+                    description = description,
+                    start = dates.start,
+                    end = dates.end
+                }
+                
                 var leaveRequest = _mapper.Map<LeaveRequest>(leaveRequestVm);
                 _uow.LeaveRequest.Create(leaveRequest);
                 _uow.Save();
